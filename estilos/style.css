@@ -164,3 +164,8 @@ div{
 .pic:hover{
     transform: scale(1.5);
 }
+
+.transf:hover{
+    transform: translateX(200px);
+    transition: all 5s ease-out;
+}
