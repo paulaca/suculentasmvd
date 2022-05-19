@@ -4,6 +4,15 @@
     padding: 0;
     margin: 0;
 }
+header{
+    height: 3.5cm;
+    margin-top: 0;
+    margin-bottom: 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .green{
     background-color: rgb(136, 228, 165);
 }
@@ -26,7 +35,7 @@
 
 body{
     background-color: rgb(239, 221, 221);
-    color: rgb(38, 49, 41);
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 h1{
@@ -35,6 +44,7 @@ h1{
     font-style: italic;
     padding-left: 40px;
     margin: 30px;
+    
     
     
 }
@@ -83,9 +93,8 @@ footer{
 }
 
 p{
-    margin-left: 40px;
     font-size: 5mm;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 15px;
 }
 
@@ -128,7 +137,7 @@ div{
 
 .box{
     transition-property: all;
-    transition-duration: 3s;
+    transition-duration: 4s;
 }
 .box:hover{
     transform: scale(1.5);
