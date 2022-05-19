@@ -4,46 +4,24 @@
     padding: 0;
     margin: 0;
 }
-
-header{
-    background-image: url("../img/fondo.webp");
-    height: 3.5cm;
-    margin-top: 0;
-    margin-bottom: 40px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
- nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 60px;
-    margin-bottom: 10px;
-    font-weight: bolder;
+.green{
+    background-color: rgb(136, 228, 165);
+}
+.logo{
+    width: 300px;
+    height: 150px;
+    border: none;
+    margin-left: 5px;
 }
 
-
-nav ul li a{
-    text-decoration: none;
-    color: rgb(7, 54, 7);
-    font-size: 1cm;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    justify-content: end;
-    border-radius: 15px;
-    border: 3px rgb(212, 247, 192) solid;
-    background-color: rgb(212, 247 , 192);
-}
-.menuprod{
-    background-color: rgb(212, 247 , 192);
-    border: 3px rgb(3, 62, 3) solid;
-    margin-top: 15px;
-}
-section nav ul li a{
-    font-size: 7mm;
-    margin-left: 10px;
+.formulario{
+    border: 5px green solid;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 200px;
+    padding-left: 100px;
+    color: black;
 }
 
 body{
@@ -67,15 +45,10 @@ h2{
     margin-bottom: 20px;
 
 }
-
 img{
-    margin-top: 5px;
-    margin-left: 300px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    border: 10px rgb(3, 66, 3) double
+    border-radius: 10px;
 }
+
 
 figcaption{
     margin-left: 200px;
@@ -85,7 +58,7 @@ figcaption{
 
 
 footer{
-    background-color: rgb(212, 247, 192);
+    background-color:rgb(136, 228, 165);
     padding: 10px;
     margin-bottom: 0;
 }
