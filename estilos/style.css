@@ -4,21 +4,13 @@
     padding: 0;
     margin: 0;
 }
-header{
-    height: 3.5cm;
-    margin-top: 0;
-    margin-bottom: 100px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-}
+
 .green{
     background-color: rgb(136, 228, 165);
 }
 .logo{
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     border: none;
     margin-left: 5px;
 }
@@ -49,9 +41,8 @@ h1{
     
 }
 h2{
-    font-size: 7mm;
+    font-size: 5mm;
     margin-top: 40px;
-    margin-left: 60px;
     margin-bottom: 20px;
 
 }
@@ -59,15 +50,9 @@ img{
     border-radius: 10px;
 }
 
-
-figcaption{
-    margin-left: 200px;
-    margin-bottom: 20px;
-    font-style: italic;
-}
-
-
 footer{
+    color:green;
+    font-style: normal;
     background-color:rgb(136, 228, 165);
     padding: 10px;
     margin-bottom: 0;
@@ -79,9 +64,6 @@ footer{
     margin-left: 40px;
     transition-property: all;
     transition-duration: 4s;
-}
-.news{
-    margin-left: 200px;
 }
 .preg{
     font-size: 15mm;
@@ -101,32 +83,19 @@ p{
 ol li{
     font-size: 4mm;
     font-style: italic;
-    margin-left: 250px;
 }
 h3{
     font-size: 4mm;
     font-style: italic;
     font-weight: bold;
-    margin-left: 200px;
+
 }
 iframe{
     margin-top: 10px;
     margin-left: 60px;
     border: green solid 10px;
 }
-#from{
-    margin-left: 200px;
-    font-size: 7mm;
-}
-.formix{
-    border: 10px greenyellow ridge;
-    padding-bottom: 30px;
-    background-color: antiquewhite;
-    margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 30px;
-}
+
 div{
     font-size: 6mm;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -140,7 +109,7 @@ div{
     transition-duration: 4s;
 }
 .box:hover{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .pic:hover{
@@ -151,3 +120,22 @@ div{
     transform: translateX(200px);
     transition: all 4s ease-out;
 }
+
+.carousel-inner img{
+    width: 1500px;
+    height: 1000px;
+}
+
+.btn{
+    background-color: rgb(87, 192, 120)    ;
+    border: 3px rgb(8, 99, 8);
+}
+.btn:hover{
+    background-color: black;
+}
+.form{
+ background-color: rgb(6, 109, 37);
+ color: whitesmoke;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}   
