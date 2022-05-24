@@ -4,7 +4,11 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    background-color: rgb(239, 221, 221);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
 .green{
     background-color: rgb(136, 228, 165);
 }
@@ -25,23 +29,16 @@
     color: black;
 }
 
-body{
-    background-color: rgb(239, 221, 221);
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
 h1{
     font-size: 1cm;
     font-weight: bolder;
     font-style: italic;
     padding-left: 40px;
     margin: 30px;
-    
-    
-    
 }
 h2{
-    font-size: 5mm;
+    font-size: 8mm;
+    font-weight: bold;
     margin-top: 40px;
     margin-bottom: 20px;
 
@@ -91,14 +88,13 @@ h3{
 
 }
 iframe{
-    margin-top: 10px;
-    margin-left: 60px;
-    border: green solid 10px;
+border: green solid 5px;
 }
 
 div{
     font-size: 6mm;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     margin-left: 60px;
     margin-right: 60px;
     padding: 10px;
