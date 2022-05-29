@@ -11,6 +11,7 @@ body{
 }
 .green{
     background-color: rgb(136, 228, 165);
+    height: auto;
 }
 .logo{
     width: 200px;
@@ -53,6 +54,7 @@ footer{
     background-color:rgb(136, 228, 165);
     padding: 10px;
     margin-bottom: 0;
+    margin-right: 0;
 }
 
 .pic{
@@ -134,4 +136,29 @@ div{
  color: whitesmoke;
  margin-top: 20px;
  margin-bottom: 20px;
-}   
+}  
+.plantas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+} 
+
+@media (max-width: 600px) {
+    .navbar{
+        width: 500px;  
+    }
+    footer{
+        width: 600px;
+    }
+}
+@media (max-width: 900px){
+    .navbar{
+        width: 900px; 
+        display: flex;
+        align-items: center; 
+    }
+    footer{
+        width: 900px;
+    }
+}
