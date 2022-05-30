@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300&family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.green{
+    background-color: $color;
+    height: auto;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    border: none;
+    margin-left: 5px;
+}
+footer{
+    color:green;
+    font-style: normal;
+    background-color:$color;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+

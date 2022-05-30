@@ -1,0 +1,134 @@
+@import "variables";
+@import "generales";
+@import "index";
+
+
+.formulario{
+    border: 5px green solid;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 200px;
+    padding-left: 100px;
+    color: black;
+}
+body{
+    background-color: rgb(239, 221, 221);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: green;
+    font-size: 1cm;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 40px;
+    margin: 30px; 
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+.pic{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    transition-property: all;
+    transition-duration: 4s;
+}
+.preg{
+    font-size: 15mm;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ol li{
+    font-size: 4mm;
+    font-style: italic;
+}
+h3{
+    font-size: 4mm;
+    font-style: italic;
+    font-weight: bold;
+
+}
+iframe{
+    margin-top: 10px;
+    margin-left: 60px;
+    border: green solid 10px;
+}
+
+div{
+    font-size: 6mm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+}
+
+.box{
+    transition-property: all;
+    transition-duration: 4s;
+}
+.box:hover{
+    transform: scale(2);
+}
+
+.pic:hover{
+    transform: scale(1.5);
+}
+
+.transf:hover{
+    transform: translateX(200px);
+    transition: all 4s ease-out;
+}
+
+.carousel-inner img{
+    width: 1500px;
+    height: 1000px;
+}
+
+.btn{
+    background-color: rgb(87, 192, 120)    ;
+    border: 3px rgb(8, 99, 8);
+}
+.btn:hover{
+    background-color: black;
+}
+.form{
+ background-color: $color;
+ color: whitesmoke;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}  
+.plantas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+} 
+
+@media (max-width: 600px) {
+    .navbar{
+        width: 500px;  
+    }
+    footer{
+        width: 600px;
+    }
+}
+@media (max-width: 900px){
+    .navbar{
+        width: 900px; 
+        display: flex;
+        align-items: center; 
+    }
+    footer{
+        width: 900px;
+    }
+}
+
