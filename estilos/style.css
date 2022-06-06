@@ -48,6 +48,56 @@ footer {
 }
 
 .formulario {
+  margin-left: 400px;
+  margin-bottom: 200px;
+}
+
+.btn--whatsapp {
+  background-color: #1bc51b;
+}
+
+.btn--facebook {
+  background-color: #2e2e75;
+}
+
+.btn--instagram {
+  background-color: #bf1d8c;
+}
+
+.btn--pinterest {
+  background-color: red;
+}
+
+.footer--, .footer--direccion, .footer--tel, .footer--wp {
+  border: 5px solid black;
+  background-color: #0a612b;
+  margin-right: 1000px;
+}
+
+.footer--direccion {
+  color: aqua;
+  font-size: larger;
+  font-style: italic;
+}
+
+.footer--tel {
+  color: yellow;
+  font-family: sans-serif;
+}
+
+.footer--wp {
+  color: gray;
+  background-color: aquamarine;
+}
+
+.footer--city {
+  width: 300px;
+  height: 100px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+.formulario {
   border: 5px green solid;
   margin-left: 200px;
   margin-bottom: 100px;
