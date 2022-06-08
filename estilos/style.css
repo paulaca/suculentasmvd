@@ -108,7 +108,7 @@ footer {
 }
 
 body {
-  background-color: #efdddd;
+  background-color: #edd0d0;
   color: black;
   font-family: 'Roboto', sans-serif;
 }
@@ -224,17 +224,7 @@ div {
 }
 
 .plantas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-left: 50px;
-  width: 1500px;
+  margin-left: 200px;
 }
 
 .history {
@@ -255,9 +245,7 @@ div {
   text-decoration: none;
 }
 
-.redes a i {
-  color: black;
-  font-size: 50px;
+.redes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,8 +254,46 @@ div {
           align-items: center;
 }
 
+.redes a i {
+  color: black;
+  font-size: 45px;
+  margin: 20px;
+}
+
 .redes a i:hover {
   color: #075e07;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #88e4a5;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.foot div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 20px;
+  font-weight: 1500;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 3px;
+  margin-left: 150px;
+  margin-bottom: 0;
+}
+
+.mix {
+  margin-left: 300px;
 }
 
 @media (max-width: 600px) {
@@ -286,6 +312,11 @@ div {
   }
   .nosotros {
     width: 650px;
+  }
+  .plantas div ol li {
+    margin-left: 150px;
+    margin-right: 0;
+    width: 700px;
   }
   footer {
     width: 700px;
@@ -314,6 +345,26 @@ div {
   .nosotros {
     width: 700px;
   }
+  .plantas div ol li {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 150px;
+    width: 250px;
+  }
+  .plantas div h2 {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .prod {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   footer {
     width: 1000px;
   }
@@ -332,6 +383,17 @@ div {
   .index- {
     margin-left: 150px;
     margin-right: 100px;
+  }
+  .plantas div ol li {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 150px;
+    width: 100px;
+  }
+  .plantas div h2 {
+    width: 250px;
+    margin-left: 20px;
   }
   footer {
     width: 1500px;
