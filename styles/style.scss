@@ -129,7 +129,20 @@ div{
     margin-top: 100px;
     margin-right: 250px;
 }
-
+.redes a{
+    text-decoration: none;
+}
+.redes a i{
+    color: black;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+        
+}
+.redes a i:hover{
+    color: rgb(7, 94, 7);
+     
+}
 
 
 @media (max-width: 600px) {

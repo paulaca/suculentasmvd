@@ -251,6 +251,25 @@ div {
   margin-right: 250px;
 }
 
+.redes a {
+  text-decoration: none;
+}
+
+.redes a i {
+  color: black;
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redes a i:hover {
+  color: #075e07;
+}
+
 @media (max-width: 600px) {
   .navbar {
     width: 700px;
