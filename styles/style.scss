@@ -3,6 +3,7 @@
 @import "index";
 @import "operaciones";
 @import "prod";
+@import "sustratos";
 
 
 .formulario{
@@ -27,12 +28,9 @@ h1{
     padding-left: 40px;
     margin: 30px; 
 }
-
-
 img{
     border-radius: 10px;
 }
-
 .logo{
     margin-left: 150px;
 }
@@ -78,6 +76,8 @@ div{
 }
 
 .box{
+    height: 300px;
+    width: 450px;
     transition-property: all;
     transition-duration: 4s;
 }
@@ -95,8 +95,8 @@ div{
 }
 
 .carousel-inner img{
-    width: 1500px;
-    height: 1000px;
+    width: auto;
+    height: auto;
 }
 
 .btn{
@@ -167,10 +167,8 @@ footer{
 
 
 @media (max-width: 600px) {
-    .navbar{
-        width: 700px;  
-    }
-    .formulario{
+   
+      .formulario{
         margin-left: 100px;
         margin-right: 15px;
         width:500px;
@@ -183,17 +181,22 @@ footer{
     .nosotros{
         width: 650px;
     }
+    .prod{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
 
-    footer{
+    }
+    .footer{
         width: 700px;
     }
 }
 @media (max-width: 900px){
-    .navbar{
-        width: 900px; 
-        display: flex;
-        align-items: center; 
+    header{
+        width: auto;
     }
+  
     .formulario{
         width: 800px;
         margin-left: 30px;
@@ -224,16 +227,15 @@ footer{
 
     
     footer{
-        width: 1000px;
+        width: auto;
     }
 }
 
 @media (max-width: 1300px){
-    .navbar{
-        width: 1500px; 
-        display: flex;
-        align-items: center; 
+    header{
+        width: 1500px;
     }
+    
     .index-{
         margin-left: 150px;
         margin-right: 100px;
@@ -251,7 +253,7 @@ footer{
     }
 
     footer{
-        width: 1500px;
+        width: 1300px;
     }
 }
 
